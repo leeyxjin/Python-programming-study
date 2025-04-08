@@ -36,11 +36,11 @@ print(x**2)
 print(x**3)
 
 #나누기는 float(실수), 몫연산자는 int(정수)
-##9-1
+#9-1
 #10-1
 #11-3
 #12-1
-##13-2
+#13-1
 #14-4
 #15-1
 #16
@@ -88,3 +88,20 @@ else:
 #24
 a,b=map(int,input().split())
 c=a-b
+if c<0:
+    c*=-1
+if c>=10:
+    print('차이가 10 이상입니다.')
+elif c==0:
+    print('두 수는 같습니다.')
+else: print('차이가 10 미만입니다.')
+
+#25
+a,b,c=map(int,input().split())
+if a==0 or b==0 or c==0:
+    print('0은 포함될 수 없습니다.')
+elif a%2==0 and b%2==0 and c%2==0:
+    print('모두 짝수입니다.')
+elif a%2==1 and b%2==1 and c%2==1:
+    print('모두 홀수입니다.')
+else: print('홀수와 짝수가 섞여 있습니다.')

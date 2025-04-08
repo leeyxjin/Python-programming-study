@@ -7,4 +7,7 @@ x = 7
 y = 2
 z = x / y
 
-print("결과: %d" % z)
+print()
+print()
+for
+
